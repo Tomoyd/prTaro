@@ -24,7 +24,7 @@ import "./index.less";
 // )
 
 const Index = () => {
-  return <text>123444</text>;
+  return <View><Text>999</Text></View>;
 };
 // class Index extends Component {
 //   onLaunch(options) {
@@ -45,14 +45,14 @@ const Index = () => {
 
 //   render() {
 //     return (
-//       <View className="index">
-//         <Button className="add_btn" onClick={this.props.add}>
+//       <View className='index'>
+//         <Button className='add_btn' onClick={this.props.add}>
 //           +
 //         </Button>
-//         <Button className="dec_btn" onClick={this.props.dec}>
+//         <Button className='dec_btn' onClick={this.props.dec}>
 //           -
 //         </Button>
-//         <Button className="dec_btn" onClick={this.props.asyncAdd}>
+//         <Button className='dec_btn' onClick={this.props.asyncAdd}>
 //           async
 //         </Button>
 //         <View>
